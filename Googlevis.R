@@ -1,7 +1,7 @@
 install.packages("googleVis")
 
 library(googleVis)
-
+####
 ## Regions examples
 ## The regions style fills entire regions (typically countries) with
 ## colors corresponding to the values that you assign
