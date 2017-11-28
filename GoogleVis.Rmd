@@ -1,0 +1,19 @@
+---
+title: "googleVis"
+author: "Charles-Antoine de Thibault"
+date: "28 November 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+```{r cars}
+library(googleVis)
+G1a <- gvisGeoChart(Exports, locationvar='Country', colorvar='Profit') 
+plot(G1a)
+```
