@@ -17,3 +17,4 @@ library(googleVis)
 G1a <- gvisGeoChart(Exports, locationvar='Country', colorvar='Profit') 
 plot(G1a)
 ```
+test
